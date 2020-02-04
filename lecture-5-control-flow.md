@@ -64,8 +64,21 @@ let currentWeather = 'rainy';
 // 2. If I am hungry, I eat.
 let hunger = true;
 
+if(hunger){
+    console.log('I eat');
+    else{
+        console.log('I don't eat');
+    }
+}
+
 // 3. If it's 10pm, I go to bed. If not, I write code.
 let currentHour = 22;
+    if(currentHour > 22 || currentHour < 6){
+        consol.log('I got to bed');
+    }
+        else{
+            console.log()
+        }
 
 ```
 
@@ -158,6 +171,23 @@ for (let number = 0; number <=12; number = number + 1) {
     }
 
 }
+
+
+for( let i = 0; i <= 25; i ++){
+    if (i%2 ===1){
+    console.log(i);
+    }
+}
+
+for (let i = 0; i < 26; i++){
+    if ( i % 5 === 0 && !== 0){
+        console.log("Five alive");
+    } else {
+        console.log(i);
+    }
+}
+
+
 
 // let's break that down.
 ```
